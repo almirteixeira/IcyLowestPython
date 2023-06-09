@@ -12,7 +12,7 @@ services:
   app:
     build: .
     volumes:
-      - .:/code
+      - .:/app
     ports:
       - "5435:80"
     depends_on:
